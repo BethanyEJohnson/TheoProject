@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="DFAcreator/src/|DFAcreator/src/src/|TheoreticalProject/src/|TheoreticalFoundationsProject/src/" kind="src" path=""/>
+	<classpathentry excluding="src/" kind="src" path="DFAcreator/src"/>
+	<classpathentry kind="src" path="DFAcreator/src/src"/>
+	<classpathentry kind="src" path="TheoreticalFoundationsProject/src"/>
+	<classpathentry kind="src" path="TheoreticalProject/src"/>
+	<classpathentry kind="output" path="DFAcreator/bin"/>
+</classpath>

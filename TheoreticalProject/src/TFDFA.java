@@ -4,11 +4,15 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TFDFA {
-	
+		
 	
 	public static void main(String[] args) throws FileNotFoundException {
+	//Allow file to be read from commanbd line 	
+		if(args.length>0) {
+			File opfile = new File(args[0]);
+		
 		Scanner input = new Scanner(System.in);
-		Scanner file = new Scanner(new File("text.txt"));
+		Scanner file = new Scanner(opfile);
 
 		String alphabet = setAlphabet(file.nextLine());
 		String allStates = setAlphabet(file.nextLine());
@@ -71,8 +75,11 @@ public class TFDFA {
 		} else {
 			System.out.println("The given string is not accepted by the DFA");
 		}
+	}else {
+		System.out.print("File not found. Please enter a valid file");
+		System.exit(0);
 	}
-	
+}	
 	public static String setAlphabet(String line) {
 		String alphabet = "";
 		for(int i = 0; i < line.length(); i++) {
