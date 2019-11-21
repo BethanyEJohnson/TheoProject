@@ -1,0 +1,18 @@
+Readme file for TFDFA.java created 11/20/2019
+
+Usage notes:
+
+-This application creates a Deterministic Finite Automata based off a text file that the program accepts. 
+-The file has to be in a certain format in order for the application to accept the file. 
+-The program then allows the user to input a string of acceptable inputs and the program outputs if it accepts 
+or rejects the input string for our DFA. 
+
+
+Compilation notes:
+
+-In order for the program to run in the command line a few steps have to be taken:
+
+1.) Open the Terminal/Command line for your machine. 
+2.) Change the directory of your terminal by typing 'cd' and then type the name of the directory the program is in.
+3.) Compile the program by typing 'javac' followed by program's name followed by the .java extension
+4.) Once compiled, type 'java' followed by the program's name followed by the path and name of the file to be used.

@@ -7,7 +7,7 @@ public class TFDFA {
 		
 	
 	public static void main(String[] args) throws FileNotFoundException {
-	//Allow file to be read from commanbd line 	
+	//Allow file to be read from command line 	
 		if(args.length>0) {
 			File opfile = new File(args[0]);
 		
@@ -76,7 +76,7 @@ public class TFDFA {
 			System.out.println("The given string is not accepted by the DFA");
 		}
 	}else {
-		System.out.print("File not found. Please enter a valid file");
+		System.out.println("File not found. Please enter a valid file");
 		System.exit(0);
 	}
 }	
